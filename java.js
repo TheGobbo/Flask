@@ -9,7 +9,7 @@ function increment(){
 // pop-up function
 function pop() {
     let name = document.querySelector("#name").value;
-    if (name === null) {
+    if (name === '') {
         name = 'world';
     }
     alert('Hello ' + name + ' !');
