@@ -2,7 +2,7 @@
 let counter = 0;
 
 function increment(){
-    counter++;
+    counter += 7;
     document.querySelector("#star").innerHTML = counter;
 }
 
