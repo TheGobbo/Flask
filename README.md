@@ -8,3 +8,5 @@ _hello-world
 //testing command line arguments
 
 //learning to make a site with harvard using git
+
+//github page and flask site are not compatible 
