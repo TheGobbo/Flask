@@ -2,7 +2,7 @@
 let counter = 0;
 
 function increment(){
-    counter += 7;
+    counter += 1;
     document.querySelector("#star").innerHTML = counter;
 }
 
@@ -10,8 +10,11 @@ function increment(){
 function pop() {
     let name = document.querySelector("#name").value;
     if (name === '') {
-        name = 'world';
+        name = 'woruld';
     }
     alert('Hello ' + name + ' !');
 }
+
+
+
 
