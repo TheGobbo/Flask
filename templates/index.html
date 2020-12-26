@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block head %} 
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+    
+    
+{% endblock %}
+    
+{% block body %}     
+<h2 style="font-weight:bold;">Welcome !</h2>
+
+<!-- counting button -->
+<form onsubmit="increment(); return false;">
+    <button id="button" type="submit" class="btn btn-dark" style="margin: 10px">Increment!</button>
+</form>    
+<div id="star" style="margin: 10px;font-size:30px;font-weight:bold;">
+    0
+</div>
+
+<!-- greeting user name pop-up -->
+<form action="{{ url_for('submits') }}" method="post" onsubmit="pop(); return false;" style="margin:10px">
+    <input type="text" name="usernames" placeholder="Your Name"> <!-- id="name" --> 
+    <button type="submit" class="btn btn-success">Submit</button>
+</form>
+
+
+<img src="http://getwallpapers.com/wallpaper/full/1/e/4/1174980-beautiful-dab-dance-wallpaper-3840x2160-for-iphone-7.jpg"
+width="60%" class="rounded mx-auto d-block">                  
+
+
+{% endblock %}
