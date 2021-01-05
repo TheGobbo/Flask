@@ -12,6 +12,7 @@ _hello-world
 //github page and flask site are not compatible 
 
 //outside complements/links for website:
+
   -https://www.w3schools.com/w3css/4/w3.css                                 (w3 aesthetics)
   
   -https://getbootstrap.com/docs/5.0/getting-started/introduction/          (bootstrap aesthetics)
