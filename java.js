@@ -12,7 +12,7 @@ function pop() {
     if (name === '') {
         name = 'woruld';
     }
-    alert('Hello ' + name + ' !');
+    alert(name + 'eh gay !');
 }
 
 
